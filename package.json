@@ -1,0 +1,41 @@
+{
+    "name": "@promstack-1/mcp-server",
+    "version": "1.0.2",
+    "description": "PromStack MCP Server - Connect Claude Desktop and other MCP clients to your prompts",
+    "type": "module",
+    "main": "src/index.js",
+    "bin": {
+        "promstack-mcp-server": "./bin/promstack-mcp.js",
+        "promstack-mcp": "./bin/promstack-mcp.js"
+    },
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "node src/index.js --debug"
+    },
+    "keywords": [
+        "mcp",
+        "model-context-protocol",
+        "claude",
+        "ai",
+        "prompts",
+        "promstack"
+    ],
+    "author": "PromStack",
+    "license": "MIT",
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.25.1",
+        "node-fetch": "^3.3.2",
+        "zod": "^4.3.2"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PromStack-1/mcp-server"
+    },
+    "bugs": {
+        "url": "https://github.com/PromStack-1/mcp-server/issues"
+    },
+    "homepage": "https://promstack.com"
+}
