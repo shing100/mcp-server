@@ -42,7 +42,7 @@ Claude Desktop 설정 파일 로드:
     "promstack": {
       "command": "node",
       "args": [
-        "D:/workspace/Prompt-Manager/mcp-server/bin/promstack-mcp.js",
+        "D:/workspace/ProjectStack/mcp-server/bin/promstack-mcp.js",
         "--api-key",
         "YOUR_PK_LIVE_KEY"
       ]
